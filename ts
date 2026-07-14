@@ -1,0 +1,82 @@
+[1mdiff --git a/.gitgnore b/.gitgnore[m
+[1mindex f74c781..4f4ee3f 100644[m
+[1m--- a/.gitgnore[m
+[1m+++ b/.gitgnore[m
+[36m@@ -1,2 +1,77 @@[m
+ .next[m
+ node_modules[m
+[32m+[m
+[32m+[m[32m# Copyright (C) Daniel Stenberg, <daniel@haxx.se>, et al.[m
+[32m+[m[32m#[m
+[32m+[m[32m# SPDX-License-Identifier: curl[m
+[32m+[m
+[32m+[m[32m*.asc[m
+[32m+[m[32m*.dll[m
+[32m+[m[32m*.exe[m
+[32m+[m[32m*.exp[m
+[32m+[m[32m*.la[m
+[32m+[m[32m*.lib[m
+[32m+[m[32m*.a[m
+[32m+[m[32m*.res[m
+[32m+[m[32m*.lo[m
+[32m+[m[32m*.o[m
+[32m+[m[32m*.obj[m
+[32m+[m[32m*.pdb[m
+[32m+[m[32m*.pyc[m
+[32m+[m[32m*.orig[m
+[32m+[m[32m*.rej[m
+[32m+[m[32m*~[m
+[32m+[m[32m.*.sw?[m
+[32m+[m[32m.cproject[m
+[32m+[m[32m.deps[m
+[32m+[m[32m.dirstamp[m
+[32m+[m[32m.libs[m
+[32m+[m[32m.project[m
+[32m+[m[32m.settings[m
+[32m+[m[32m/.vs[m
+[32m+[m[32m/bld/[m
+[32m+[m[32m/build/[m
+[32m+[m[32m/stats/[m
+[32m+[m[32m__pycache__[m
+[32m+[m[32mDebug[m
+[32m+[m[32mINSTALL[m
+[32m+[m[32mMakefile[m
+[32m+[m[32mMakefile.in[m
+[32m+[m[32mRelease[m
+[32m+[m[32mTAGS[m
+[32m+[m[32maclocal.m4[m
+[32m+[m[32maclocal.m4.bak[m
+[32m+[m[32mautom4te.cache[m
+[32m+[m[32mbuildinfo.txt[m
+[32m+[m[32mca-bundle.crt[m
+[32m+[m[32mcertdata.txt[m
+[32m+[m[32mcompile[m
+[32m+[m[32mconfig.cache[m
+[32m+[m[32mconfig.guess[m
+[32m+[m[32mconfig.log[m
+[32m+[m[32mconfig.status[m
+[32m+[m[32mconfig.sub[m
+[32m+[m[32mconfigure[m
+[32m+[m[32mcurl-*.tar.bz2[m
+[32m+[m[32mcurl-*.tar.gz[m
+[32m+[m[32mcurl-*.tar.xz[m
+[32m+[m[32mcurl-*.zip[m
+[32m+[m[32mcurl-config[m
+[32m+[m[32mdepcomp[m
+[32m+[m[32minstall-sh[m
+[32m+[m[32mlibcurl.pc[m
+[32m+[m[32mlibtool[m
+[32m+[m[32mltmain.sh[m
+[32m+[m[32mmissing[m
+[32m+[m[32mmkinstalldirs[m
+[32m+[m[32mtags[m
+[32m+[m[32mtest-driver[m
+[32m+[m[32mstamp-h*[m
+[32m+[m[32mscripts/_curl[m
+[32m+[m[32mscripts/curl.fish[m
+[32m+[m[32mcurl_fuzzer[m
+[32m+[m[32mcurl_fuzzer_seed_corpus.zip[m
+[32m+[m[32mlibstandaloneengine.a[m
+[32m+[m[32mtests/string[m
+[32m+[m[32mtests/config[m
+[32m+[m[32mtests/ech-log/[m
