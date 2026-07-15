@@ -1,0 +1,20 @@
+services: 
+database:
+  image: "postgres:16.0-alpine3.18"
+  container_name: database
+  environment:
+    POSTGRES_USER: "fernandafernandes2903"
+    POSTGRES_PASSWORD: "localpassword"
+    POSTGRES_DB: "mydatabase"
+  ports:
+    - "5432:5432"
+  volumes:
+    - "db_data:/var/lib/postgresql/data"
+mailcatcher:
+  image: "mailcatcher/mailcatcher"
+  container_name: "mailcatcher"
+  ports:
+    - "1080:1080"
+    - "1025:1025"
+  command: ["mailcatcher", "--http-ip=0.0.0.0"]
+  
